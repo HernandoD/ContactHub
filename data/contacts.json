@@ -1,0 +1,30 @@
+[
+  {
+    "full_name": "HD",
+    "phone_number": "121212",
+    "email": "hernandodelgado2010@gmail.com",
+    "tags": "me",
+    "id": 1
+  },
+  {
+    "full_name": "Lenny",
+    "phone_number": "575757",
+    "email": "len@aol.com",
+    "tags": "friend,pet",
+    "id": 2
+  },
+  {
+    "full_name": "Iuliu Pop",
+    "phone_number": "232323",
+    "email": "iuliu@aol.com",
+    "tags": "friend",
+    "id": 3
+  },
+  {
+    "full_name": "Anna K",
+    "phone_number": "78909878",
+    "email": "anna@aol.com",
+    "tags": "school,friend",
+    "id": 4
+  }
+]

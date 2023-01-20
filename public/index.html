@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="stylesheets/main.css" />
   <title>Document</title>
   <script src="/javascripts/handlebars.js"></script>
-  <script src='/javascripts/main2.js'></script>
+  <script src='/javascripts/main3.js'></script>
   <script data-name='template' type='x/text-handlebars' id='contact'>
     <li data-id={{id}} class="media col-md-3 col-sm-4">
       <div class="media-heading">
@@ -101,6 +101,11 @@
         </div>
       </div>
       <ul class="media-list row contacts-container"></ul>
+      <div class="no-matches hidden">
+        <div class="well text-center">
+          <h3>There are no matching contacts.</h3> 
+        </div>
+      </div>      
       <div class="empty-contacts-placeholder">
         <div class="well text-center">
           <h3>There are no contacts.</h3> 

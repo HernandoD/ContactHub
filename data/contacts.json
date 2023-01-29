@@ -1,16 +1,37 @@
 [
   {
-    "full_name": "Lennox",
-    "phone_number": "2828282",
-    "email": "hernandodelgado2010@gmail.com",
-    "tags": "friends,family",
-    "id": 8
+    "full_name": "Drake",
+    "phone_number": "911",
+    "email": "drake@aol.com",
+    "tags": "worse rapper",
+    "id": 1
   },
   {
-    "full_name": "Isla",
-    "phone_number": "78978999",
-    "email": "isla@aol.com",
-    "tags": "daughter",
-    "id": 10
+    "full_name": "2Pac",
+    "phone_number": "987-098-8182",
+    "email": "pac@aol.com",
+    "tags": "rapper",
+    "id": 2
+  },
+  {
+    "full_name": "Method Man",
+    "phone_number": "467-987-1567",
+    "email": "method@aol.com",
+    "tags": "rapper",
+    "id": 3
+  },
+  {
+    "full_name": "Dr Dre",
+    "phone_number": "678-980-4567",
+    "email": "dre@aol.com",
+    "tags": "producer,leader,rapper",
+    "id": 4
+  },
+  {
+    "full_name": "Jimmy Iovine",
+    "phone_number": "345-789-1765",
+    "email": "jimmy@aol.com",
+    "tags": "music executive,leader",
+    "id": 5
   }
 ]

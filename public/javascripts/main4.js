@@ -265,9 +265,11 @@ class View {
 
   toggleNoMatchingContacts(matches) {
     if (matches.length > 0) {
-      document.querySelector('.no-matches').classList.add('hidden')
+      document.querySelector('.no-matches').classList.add('hidden');
+      this.hideClearBtn()
     } else if (matches.length === 0) {
-      document.querySelector('.no-matches').classList.remove('hidden')
+      document.querySelector('.no-matches').classList.remove('hidden');
+      this.hideClearBtn()
     }    
   }
 
@@ -350,12 +352,12 @@ class Controller {
     let target = e.target;
 
     if (this.isEditButton(target)) {
-      if (target.tagName !== 'A') { target = target.closest('A')}
+      if (target.tagName !== 'A') { target = target.closest('A') }
       this.setEditForm(target)
     }
 
     if (this.isDeleteButton(target)) {
-      if (target.tagName !== 'A') { target = target.closest('A')}
+      if (target.tagName !== 'A') { target = target.closest('A') }
       this.model.deleteContact(target.dataset.id);
       this.displayAllContacts()
     }
@@ -573,7 +575,6 @@ class Controller {
 
   async handleSearch(e) {
     let target = e.target;
-    let matches;
 
     if (target.value.length === 0) {
       this.displayAllContacts();

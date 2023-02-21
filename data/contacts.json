@@ -7,7 +7,7 @@
     "id": 1
   },
   {
-    "full_name": "2Pac",
+    "full_name": "Tupac",
     "phone_number": "987-098-8182",
     "email": "pac@aol.com",
     "tags": "rapper",
@@ -24,7 +24,7 @@
     "full_name": "Dr Dre",
     "phone_number": "678-980-4567",
     "email": "dre@aol.com",
-    "tags": "producer,leader,rapper",
+    "tags": "rapper,producer,leader,one of the goats",
     "id": 4
   },
   {
@@ -33,5 +33,33 @@
     "email": "jimmy@aol.com",
     "tags": "music executive,leader",
     "id": 5
+  },
+  {
+    "full_name": "RZA",
+    "phone_number": "678-098-6789",
+    "email": "rza@aol.com",
+    "tags": "producer,leader,rapper",
+    "id": 6
+  },
+  {
+    "full_name": "Raekwon",
+    "phone_number": "234-789-3777",
+    "email": "raek@aol.com",
+    "tags": "rapper",
+    "id": 7
+  },
+  {
+    "full_name": "David Geffen",
+    "phone_number": "123-789-2525",
+    "email": "geffen@geffenrecords.com",
+    "tags": "leader,music executive",
+    "id": 8
+  },
+  {
+    "full_name": "Rakim",
+    "phone_number": "567-098-1234",
+    "email": "rakim@aol.com",
+    "tags": "rapper,one of the goats",
+    "id": 9
   }
 ]
